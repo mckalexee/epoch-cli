@@ -22,3 +22,9 @@ Print the epoch time from a date string:
 $ epoch "2018/9/13 10:35:19"
 1536852919
 ```
+
+## Testing
+Requires bash
+```
+$ npm test
+```
