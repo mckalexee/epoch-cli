@@ -16,5 +16,7 @@ EPOCH_FROM_STRING=`./epoch.js "$STRING_FROM_EPOCH"`
 if [ $EPOCH_FROM_STRING = "$EPOCH_TIME" ]; then
   echo "Date converted back to epoch correctly"
 else
-  echo 1
+  exit 1
 fi
+
+exit 0
